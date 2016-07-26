@@ -5,7 +5,7 @@
 var createPreprocessor = function(args, logger, helper) {
   var OPEN_REGEX = /[a-zA-Z]+([\({]).*[^\)}]$/
 
-  var log = logger.create('preprocessor.haml');
+  var log = logger.create('preprocessor.haml-attribute-concatenation');
 
   return function(content, file, done) {
     log.debug('Concatenating attributes in "%s".', file.originalPath);
