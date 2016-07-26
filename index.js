@@ -42,5 +42,5 @@ createHamlPreprocessor.$inject = ['args', 'logger', 'helper'];
 
 // PUBLISH DI MODULE
 module.exports = {
-  'preprocessor:haml-attribute-concatentation': ['factory', createPreprocessor]
+  'preprocessor:haml-attribute-concatenation': ['factory', createPreprocessor]
 };
