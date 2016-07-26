@@ -1,0 +1,29 @@
+{
+  "name": "karma-haml-attribute-concatenation-preproccessor",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Concatentate haml attributes to one line so that js-haml can process them",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roguenet/karma-haml-attribute-concatenation-preproccessor.git"
+  },
+  "keywords": [
+    "haml-plugin",
+    "haml-preprocessor",
+    "haml",
+    "karma-plugin",
+    "karma-preprocessor"
+  ],
+  "author": {
+    "name": "Nathan Curtis",
+    "email": "nathan.curtis@gmail.com"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT",
+  "contributors": [
+  ]
+}
