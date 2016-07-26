@@ -11,11 +11,9 @@ var createPreprocessor = function(logger) {
     log.debug('Concatenating attributes in "%s".', file.originalPath);
 
     var lines = content.split(/\n/);
-    var matched = false;
     for (var ii = 0; ii < lines.length; ii++) {
       var match = lines[ii].match(OPEN_REGEX);
       if (match) {
-        matched = true;
         var closeCharacter = match[1] == '(' ? ')' : '}';
         var closeIndex = findClose(lines, ii, closeCharacter);
         if (closeIndex < ii) {
