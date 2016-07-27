@@ -19,14 +19,14 @@ would get out of the Ruby `haml` processor.
 ```json
 {
   "devDependencies": {
-    "karma-haml-attribute-concatenation-preprocessor": "^0.1"
+    "karma-haml-attribute-concatenation-preprocessor": "^0.1.0"
   }
 }
 ```
 
 You can of course manage this as usual via `npm`:
 ```
-npm install karma-haml-attribute-concatenation-preprocessor
+npm install --save-dev karma-haml-attribute-concatenation-preprocessor
 ```
 
 ## Configuration
