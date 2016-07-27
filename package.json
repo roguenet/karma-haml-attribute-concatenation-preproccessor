@@ -1,6 +1,6 @@
 {
   "name": "karma-haml-attribute-concatenation-preprocessor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Karma plugin. Concatentate haml attributes to one line so that haml-js can process them",
   "main": "index.js",
   "repository": {

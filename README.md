@@ -19,7 +19,7 @@ would get out of the Ruby `haml` processor.
 ```json
 {
   "devDependencies": {
-    "karma-haml-attribute-concatenation-preprocessor": "^0.1.0"
+    "karma-haml-attribute-concatenation-preprocessor": "^0.1.1"
   }
 }
 ```
