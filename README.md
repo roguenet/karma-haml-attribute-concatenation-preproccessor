@@ -3,7 +3,7 @@ karma-haml-attribute-concatentation-preprocessor
 > A Karma preprocessor that concatenates multiline haml attributes so that the haml-js preprocessor
 doesn't choke on them.
 
-The `haml-js` preprocessor can't handle multi-line attributes, which are valid haml.
+The `haml-js` preprocessor can't handle multi-line attributes, which are valid haml
 ([3 year old open issue](https://github.com/creationix/haml-js/issues/74)). There is a
 [patch](https://github.com/StemboltHQ/karma-haml-preprocessor/commit/f2846df2fcbb4f9614b273af3b4d8ae430e223ea)
 floating around to support using the `haml` executable instead of `haml-js` for `haml` preprocessing
